@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  stripe-app:
+    image: mynodejs
+    ports:
+      - "3003:3000"
